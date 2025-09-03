@@ -1,6 +1,6 @@
 Create Database JoinQuerry;
 use JoinQuerry;
-
+---Create Table---
 CREATE TABLE Department (
     DeptID INT PRIMARY KEY,
     DeptName VARCHAR(50) NOT NULL
@@ -71,5 +71,6 @@ ALTER VIEW [Employee 2] AS
 SELECT EmpID, EmpName, DeptID,
 FROM Employee
 WHERE EmpID = 101;
+
 
 
